@@ -1,0 +1,24 @@
+.navegacao{
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+.link{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--cor--fonte-principal);
+}
+.linkDestacado{
+  text-underline-offset: 6px;
+
+
+}
+@media (max-width: 774px){
+    .navegacao{
+        height: 72px;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}

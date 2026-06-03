@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+ --azul-escuro:#f4119e;
+ --azul-medio:#e91fa8;
+ --cor--fonte-principal:#f76cc6;
+ --cor-font-post:#dd83ad;
+ --branco:#f1d9f0;
+ --fonte-principal:"Raleway", sans-serif;
+ --font-secundaria:"Playfair Display", serif;
+ font-family: var(--fonte-principal);
+}
+#root{
+ display: grid;
+ grid-template-rows: auto 1fr auto;
+ grid-template-columns: minmax(0, 1fr);
+ min-height: 100vh;
+}
+h1, h2, h3 {
+ font-weight: 700;
+ line-height: 5rem;
+}
+li{
+ list-style: none;
+}
+a{
+ text-decoration: none;
+}
